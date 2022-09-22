@@ -11,20 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e89d73-4422-41de-b352-a024d015e7d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lena.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ronaldo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ronaldo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lena.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/magic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/method.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/method.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ustc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ustc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="d2e89d73-4422-41de-b352-a024d015e7d8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663841801362</updated>
-      <workItem from="1663841803277" duration="12549000" />
+      <workItem from="1663841803277" duration="13252000" />
     </task>
     <servers />
   </component>
