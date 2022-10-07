@@ -7,6 +7,7 @@
 using namespace cv;
 using namespace std;
 
+uchar saturate(int val); //溢出检测
 void color2grey(Mat &src, Mat &dst);
 void binarization(Mat &src, Mat &dst, uchar value);
 void logtransform(Mat &src, Mat &dst, int factor);

@@ -7,10 +7,14 @@ int main(){
         exit(1);
     }
 
-    // 灰度图像绘制直方图
+    // 灰度变换
     Mat grey_image, histogram;
     vector<double> hist_value(256, 0);
     color2grey(image, grey_image);
+    namedWindow("Grey", 0);
+    imshow("Grey", grey_image);
+
+    // 灰度图像绘制直方图
     grey_Histogram(grey_image, histogram, hist_value);
     namedWindow("Histogram", 0);
     imshow("Histogram", histogram);

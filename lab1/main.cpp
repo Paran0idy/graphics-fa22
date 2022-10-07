@@ -2,7 +2,7 @@
 
 int main(){
     //读取图像
-    Mat image = imread("../ustc.jpg");
+    Mat image = imread("../lena.jpg");
     if(image.empty()){  // 错误处理
         printf("open image failed!\n");
         exit(1);
@@ -17,21 +17,17 @@ int main(){
 
     //二值化
     Mat bin_image;
-    binarization(grey_image, bin_image, 150);
+    binarization(grey_image, bin_image, 127);
     imshow("bin_image", bin_image);
 
     //对数变换
     Mat log_image;
-    logtransform(grey_image, log_image, 6);
-    normalize(log_image, log_image, 0, 255, NORM_MINMAX); //归一化到[0,255]
-    convertScaleAbs(log_image, log_image); //转换到CV_8U
+    logtransform(grey_image, log_image, 20);
     imshow("log_image", log_image);
 
     //伽马变换
     Mat gamma_image;
-    gammatransform(grey_image, gamma_image, 6, 0.5);
-    normalize(gamma_image, gamma_image, 0, 255, NORM_MINMAX); //归一化到[0,255]
-    convertScaleAbs(gamma_image, gamma_image); //转换到CV_8U
+    gammatransform(grey_image, gamma_image, 1, 1.1);
     imshow("gamma_image", gamma_image);
 
     //补色变换

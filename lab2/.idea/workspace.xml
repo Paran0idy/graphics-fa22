@@ -11,7 +11,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e89d73-4422-41de-b352-a024d015e7d8" name="Changes" comment="" />
+    <list default="true" id="d2e89d73-4422-41de-b352-a024d015e7d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/graphics-fa22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1/Lena.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1/lena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/method.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/method.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/method.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/method.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/method.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/method.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/method.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/method.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/method.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/method.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/method.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/method.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
@@ -70,7 +95,12 @@
       <option name="presentableId" value="Default" />
       <updated>1663841801362</updated>
       <workItem from="1663841803277" duration="14461000" />
-      <workItem from="1663914795005" duration="1000" />
+      <workItem from="1663914795005" duration="2243000" />
+      <workItem from="1663998815002" duration="1141000" />
+      <workItem from="1664181692920" duration="2433000" />
+      <workItem from="1664188172604" duration="45000" />
+      <workItem from="1664188786753" duration="247000" />
+      <workItem from="1664958970711" duration="715000" />
     </task>
     <servers />
   </component>

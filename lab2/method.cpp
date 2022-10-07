@@ -2,10 +2,11 @@
 
 void color2grey(Mat &src, Mat &dst){
     int r = src.rows, c = src.cols;
-    dst.create(r, c, CV_8UC1);
+    dst = Mat::zeros(src.size(), CV_8UC1);
     for(int i = 0; i < r; i++)
         for(int j = 0; j < c; j++)
-            dst.at<uchar>(i, j) = (src.at<Vec3b>(i , j)[0] + src.at<Vec3b>(i , j)[1] + src.at<Vec3b>(i , j)[2]) / 3;
+            for(int k = 0; k < 3; k++)
+                dst.at<uchar>(i, j) += src.at<Vec3b>(i , j)[k] / 3;
 }
 
  void grey_Histogram(Mat &src, Mat &dst, vector<double> &grey_hist_value){
@@ -14,7 +15,7 @@ void color2grey(Mat &src, Mat &dst){
     for(int i = 0; i < r; i++)
         for(int j = 0; j < c; j++) grey_hist_value[src.at<uchar>(i, j)]++;
     double size = r * c;
-    double max_value = 0;
+    double max_value = -1;
     for(int i = 0; i < 256; i++){
         grey_hist_value[i] /= size;
         max_value = max(grey_hist_value[i], max_value);
@@ -24,8 +25,7 @@ void color2grey(Mat &src, Mat &dst){
     int hist_h = scale * max_value, hist_w = 280;
     dst = Mat::zeros(hist_h, hist_w, CV_8U);
     for(int i = 0; i < 256; i++){
-        double binValue = grey_hist_value[i];
-        int realValue  = saturate_cast<int>(binValue * scale);  //缩放后的频率
+        int realValue  = grey_hist_value[i] * scale;
         rectangle(dst,
                       Point(i, hist_h - realValue),
                       Point(i + 1, hist_h),

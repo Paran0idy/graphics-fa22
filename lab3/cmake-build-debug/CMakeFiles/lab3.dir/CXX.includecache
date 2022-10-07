@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/twoballs/courses/graphics-fa22/lab3/main.cpp
-method.h
-/home/twoballs/courses/graphics-fa22/lab3/method.h
-
 /home/twoballs/courses/graphics-fa22/lab3/method.cpp
 method.h
 /home/twoballs/courses/graphics-fa22/lab3/method.h

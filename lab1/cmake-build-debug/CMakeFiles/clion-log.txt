@@ -1,5 +1,1 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/zsh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/twoballs/courses/graphics-fa22/lab1/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /home/twoballs/courses/graphics-fa22/lab1"
--- Found OpenCV: /usr/local (found version "4.6.0") 
--- Configuring done
--- Generating done
--- Build files have been written to: /home/twoballs/courses/graphics-fa22/lab1/cmake-build-debug
+Cannot create directory \\wsl$\Ubuntu-20.04\wsl.localhost\Ubuntu-20.04\home\twoballs\courses\graphics-fa22\lab1\cmake-build-debug
